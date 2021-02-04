@@ -1,0 +1,64 @@
+div.content{
+    background: none;
+	line-height: 20vh;
+	color: yellow;
+	font-size: 3em;
+	font-family: 'Itim', cursive;
+}
+div.content:hover{
+	color: white;
+}
+a.btn:hover{
+	background-color: #0b5e2f;
+	width: 47%;
+	line-height: 260%;
+	color: yellow;
+	font-size: 18px;
+}
+a.btn:active{
+	background-color:#0b0b5e;
+	color: red;
+}
+div.content:hover{
+	color: white;
+}
+div.form h1#header
+{
+	text-align: center;
+    margin-top: 10%;
+    color: yellow;
+}
+div.container-form{
+	display: flex;
+	justify-content: center;
+	margin-top: 3vh;
+}
+div.container-form input, select{
+	width: 30%;
+	height: 4vh;
+	background-color: rgba(255, 255, 255, 0.6);
+	color: black;
+	font-weight: bold;
+	border: none;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	margin-right: 20px;
+}
+form div.container-form input.register{
+	width: 10%;
+	border-radius: 20px;
+	background-color:#0b0b5e;
+	color: red;
+	font-size: 20px;
+	height: 7vh;
+}
+form div.container-form input.register:hover{
+	background-color: #0b5e2f;
+	color: white;
+}
+form div.container-form input.register:active{
+	background-color: rgba(89, 20 , 47, 1);
+}
+form{
+	margin-top: 5%;
+}*
